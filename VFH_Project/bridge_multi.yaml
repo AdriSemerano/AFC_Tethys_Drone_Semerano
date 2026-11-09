@@ -1,0 +1,960 @@
+
+- ros_topic_name: "/model/tethys_0/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_0/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_0/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_0/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_0/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_0/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_0/sonar_3d/points"
+  gz_topic_name: "/tethys_0/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_0/altimeter"
+  gz_topic_name: "/tethys_0/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_0/imu"
+  gz_topic_name: "/tethys_0/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_0/odometry"
+  gz_topic_name: "/model/tethys_0/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_0/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_0/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_1/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_1/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_1/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_1/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_1/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_1/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_1/sonar_3d/points"
+  gz_topic_name: "/tethys_1/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_1/altimeter"
+  gz_topic_name: "/tethys_1/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_1/imu"
+  gz_topic_name: "/tethys_1/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_1/odometry"
+  gz_topic_name: "/model/tethys_1/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_1/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_1/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_2/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_2/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_2/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_2/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_2/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_2/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_2/sonar_3d/points"
+  gz_topic_name: "/tethys_2/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_2/altimeter"
+  gz_topic_name: "/tethys_2/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_2/imu"
+  gz_topic_name: "/tethys_2/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_2/odometry"
+  gz_topic_name: "/model/tethys_2/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_2/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_2/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_3/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_3/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_3/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_3/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_3/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_3/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_3/sonar_3d/points"
+  gz_topic_name: "/tethys_3/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_3/altimeter"
+  gz_topic_name: "/tethys_3/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_3/imu"
+  gz_topic_name: "/tethys_3/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_3/odometry"
+  gz_topic_name: "/model/tethys_3/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_3/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_3/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_4/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_4/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_4/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_4/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_4/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_4/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_4/sonar_3d/points"
+  gz_topic_name: "/tethys_4/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_4/altimeter"
+  gz_topic_name: "/tethys_4/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_4/imu"
+  gz_topic_name: "/tethys_4/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_4/odometry"
+  gz_topic_name: "/model/tethys_4/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_4/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_4/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_5/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_5/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_5/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_5/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_5/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_5/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_5/sonar_3d/points"
+  gz_topic_name: "/tethys_5/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_5/altimeter"
+  gz_topic_name: "/tethys_5/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_5/imu"
+  gz_topic_name: "/tethys_5/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_5/odometry"
+  gz_topic_name: "/model/tethys_5/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_5/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_5/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_6/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_6/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_6/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_6/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_6/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_6/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_6/sonar_3d/points"
+  gz_topic_name: "/tethys_6/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_6/altimeter"
+  gz_topic_name: "/tethys_6/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_6/imu"
+  gz_topic_name: "/tethys_6/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_6/odometry"
+  gz_topic_name: "/model/tethys_6/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_6/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_6/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_7/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_7/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_7/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_7/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_7/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_7/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_7/sonar_3d/points"
+  gz_topic_name: "/tethys_7/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_7/altimeter"
+  gz_topic_name: "/tethys_7/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_7/imu"
+  gz_topic_name: "/tethys_7/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_7/odometry"
+  gz_topic_name: "/model/tethys_7/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_7/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_7/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_8/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_8/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_8/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_8/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_8/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_8/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_8/sonar_3d/points"
+  gz_topic_name: "/tethys_8/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_8/altimeter"
+  gz_topic_name: "/tethys_8/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_8/imu"
+  gz_topic_name: "/tethys_8/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_8/odometry"
+  gz_topic_name: "/model/tethys_8/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_8/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_8/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_9/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_9/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_9/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_9/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_9/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_9/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_9/sonar_3d/points"
+  gz_topic_name: "/tethys_9/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_9/altimeter"
+  gz_topic_name: "/tethys_9/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_9/imu"
+  gz_topic_name: "/tethys_9/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_9/odometry"
+  gz_topic_name: "/model/tethys_9/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_9/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_9/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_10/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_10/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_10/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_10/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_10/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_10/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_10/sonar_3d/points"
+  gz_topic_name: "/tethys_10/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_10/altimeter"
+  gz_topic_name: "/tethys_10/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_10/imu"
+  gz_topic_name: "/tethys_10/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_10/odometry"
+  gz_topic_name: "/model/tethys_10/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_10/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_10/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_11/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_11/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_11/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_11/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_11/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_11/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_11/sonar_3d/points"
+  gz_topic_name: "/tethys_11/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_11/altimeter"
+  gz_topic_name: "/tethys_11/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_11/imu"
+  gz_topic_name: "/tethys_11/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_11/odometry"
+  gz_topic_name: "/model/tethys_11/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_11/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_11/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_12/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_12/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_12/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_12/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_12/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_12/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_12/sonar_3d/points"
+  gz_topic_name: "/tethys_12/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_12/altimeter"
+  gz_topic_name: "/tethys_12/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_12/imu"
+  gz_topic_name: "/tethys_12/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_12/odometry"
+  gz_topic_name: "/model/tethys_12/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_12/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_12/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_13/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_13/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_13/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_13/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_13/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_13/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_13/sonar_3d/points"
+  gz_topic_name: "/tethys_13/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_13/altimeter"
+  gz_topic_name: "/tethys_13/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_13/imu"
+  gz_topic_name: "/tethys_13/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_13/odometry"
+  gz_topic_name: "/model/tethys_13/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_13/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_13/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_14/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_14/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_14/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_14/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_14/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_14/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_14/sonar_3d/points"
+  gz_topic_name: "/tethys_14/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_14/altimeter"
+  gz_topic_name: "/tethys_14/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_14/imu"
+  gz_topic_name: "/tethys_14/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_14/odometry"
+  gz_topic_name: "/model/tethys_14/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_14/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_14/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_15/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_15/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_15/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_15/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_15/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_15/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_15/sonar_3d/points"
+  gz_topic_name: "/tethys_15/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_15/altimeter"
+  gz_topic_name: "/tethys_15/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_15/imu"
+  gz_topic_name: "/tethys_15/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_15/odometry"
+  gz_topic_name: "/model/tethys_15/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_15/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_15/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_16/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_16/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_16/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_16/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_16/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_16/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_16/sonar_3d/points"
+  gz_topic_name: "/tethys_16/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_16/altimeter"
+  gz_topic_name: "/tethys_16/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_16/imu"
+  gz_topic_name: "/tethys_16/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_16/odometry"
+  gz_topic_name: "/model/tethys_16/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_16/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_16/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_17/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_17/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_17/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_17/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_17/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_17/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_17/sonar_3d/points"
+  gz_topic_name: "/tethys_17/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_17/altimeter"
+  gz_topic_name: "/tethys_17/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_17/imu"
+  gz_topic_name: "/tethys_17/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_17/odometry"
+  gz_topic_name: "/model/tethys_17/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_17/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_17/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_18/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_18/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_18/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_18/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_18/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_18/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_18/sonar_3d/points"
+  gz_topic_name: "/tethys_18/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_18/altimeter"
+  gz_topic_name: "/tethys_18/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_18/imu"
+  gz_topic_name: "/tethys_18/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_18/odometry"
+  gz_topic_name: "/model/tethys_18/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_18/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_18/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/tethys_19/joint/propeller_joint/cmd_thrust"
+  gz_topic_name: "/model/tethys_19/joint/propeller_joint/cmd_thrust"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_19/joint/horizontal_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_19/joint/horizontal_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/tethys_19/joint/vertical_fins_joint/fin_0/cmd_pos"
+  gz_topic_name: "/model/tethys_19/joint/vertical_fins_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/tethys_19/sonar_3d/points"
+  gz_topic_name: "/tethys_19/sonar_3d/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_19/altimeter"
+  gz_topic_name: "/tethys_19/altimeter"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tethys_19/imu"
+  gz_topic_name: "/tethys_19/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+  
+- ros_topic_name: "/model/tethys_19/odometry"
+  gz_topic_name: "/model/tethys_19/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+ 
+- ros_topic_name: "/tethys_19/bumper"
+  gz_topic_name: "/world/vfh_training_world/model/tethys_19/link/base_link/sensor/tethys_bumper/contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS

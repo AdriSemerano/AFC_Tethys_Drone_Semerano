@@ -1,0 +1,603 @@
+
+--- SWARM TEST INITIATED | Drones: 20 | Iterations: 50 | GUI: OFF ---
+Loaded RL Weights: [34.33 3.25 10.04 2.21 3.00 0.10 0.79 1.00]
+
+ITERATION 1/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 1): Success: 8 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 20
+Goal Reached                          : 8 (40.0%)
+Obstacle Collisions                   : 5 (25.0%)
+Drone-Drone Collisions                : 0 (0.0%)
+Timeouts                              : 7 (35.0%)
+----------------------------------------
+
+ITERATION 2/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 2): Success: 8 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 40
+Goal Reached                          : 16 (40.0%)
+Obstacle Collisions                   : 10 (25.0%)
+Drone-Drone Collisions                : 0 (0.0%)
+Timeouts                              : 14 (35.0%)
+----------------------------------------
+
+ITERATION 3/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 3): Success: 13 | Obs_Crash: 3 | Drone_Crash: 2 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 60
+Goal Reached                          : 29 (48.3%)
+Obstacle Collisions                   : 13 (21.7%)
+Drone-Drone Collisions                : 2 (3.3%)
+Timeouts                              : 16 (26.7%)
+----------------------------------------
+
+ITERATION 4/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 4): Success: 7 | Obs_Crash: 8 | Drone_Crash: 0 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 80
+Goal Reached                          : 36 (45.0%)
+Obstacle Collisions                   : 21 (26.2%)
+Drone-Drone Collisions                : 2 (2.5%)
+Timeouts                              : 21 (26.2%)
+----------------------------------------
+
+ITERATION 5/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 5): Success: 7 | Obs_Crash: 9 | Drone_Crash: 0 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 100
+Goal Reached                          : 43 (43.0%)
+Obstacle Collisions                   : 30 (30.0%)
+Drone-Drone Collisions                : 2 (2.0%)
+Timeouts                              : 25 (25.0%)
+----------------------------------------
+
+ITERATION 6/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 6): Success: 5 | Obs_Crash: 12 | Drone_Crash: 0 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 120
+Goal Reached                          : 48 (40.0%)
+Obstacle Collisions                   : 42 (35.0%)
+Drone-Drone Collisions                : 2 (1.7%)
+Timeouts                              : 28 (23.3%)
+----------------------------------------
+
+ITERATION 7/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 7): Success: 7 | Obs_Crash: 2 | Drone_Crash: 4 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 140
+Goal Reached                          : 55 (39.3%)
+Obstacle Collisions                   : 44 (31.4%)
+Drone-Drone Collisions                : 6 (4.3%)
+Timeouts                              : 35 (25.0%)
+----------------------------------------
+
+ITERATION 8/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 8): Success: 6 | Obs_Crash: 8 | Drone_Crash: 0 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 160
+Goal Reached                          : 61 (38.1%)
+Obstacle Collisions                   : 52 (32.5%)
+Drone-Drone Collisions                : 6 (3.8%)
+Timeouts                              : 41 (25.6%)
+----------------------------------------
+
+ITERATION 9/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 9): Success: 6 | Obs_Crash: 6 | Drone_Crash: 2 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 180
+Goal Reached                          : 67 (37.2%)
+Obstacle Collisions                   : 58 (32.2%)
+Drone-Drone Collisions                : 8 (4.4%)
+Timeouts                              : 47 (26.1%)
+----------------------------------------
+
+ITERATION 10/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 10): Success: 10 | Obs_Crash: 4 | Drone_Crash: 2 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 200
+Goal Reached                          : 77 (38.5%)
+Obstacle Collisions                   : 62 (31.0%)
+Drone-Drone Collisions                : 10 (5.0%)
+Timeouts                              : 51 (25.5%)
+----------------------------------------
+
+ITERATION 11/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 11): Success: 5 | Obs_Crash: 6 | Drone_Crash: 0 | Timeout: 9
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 220
+Goal Reached                          : 82 (37.3%)
+Obstacle Collisions                   : 68 (30.9%)
+Drone-Drone Collisions                : 10 (4.5%)
+Timeouts                              : 60 (27.3%)
+----------------------------------------
+
+ITERATION 12/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 12): Success: 7 | Obs_Crash: 5 | Drone_Crash: 1 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 240
+Goal Reached                          : 89 (37.1%)
+Obstacle Collisions                   : 73 (30.4%)
+Drone-Drone Collisions                : 11 (4.6%)
+Timeouts                              : 67 (27.9%)
+----------------------------------------
+
+ITERATION 13/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 13): Success: 6 | Obs_Crash: 9 | Drone_Crash: 0 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 260
+Goal Reached                          : 95 (36.5%)
+Obstacle Collisions                   : 82 (31.5%)
+Drone-Drone Collisions                : 11 (4.2%)
+Timeouts                              : 72 (27.7%)
+----------------------------------------
+
+ITERATION 14/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 14): Success: 6 | Obs_Crash: 8 | Drone_Crash: 2 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 280
+Goal Reached                          : 101 (36.1%)
+Obstacle Collisions                   : 90 (32.1%)
+Drone-Drone Collisions                : 13 (4.6%)
+Timeouts                              : 76 (27.1%)
+----------------------------------------
+
+ITERATION 15/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 15): Success: 10 | Obs_Crash: 9 | Drone_Crash: 0 | Timeout: 1
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 300
+Goal Reached                          : 111 (37.0%)
+Obstacle Collisions                   : 99 (33.0%)
+Drone-Drone Collisions                : 13 (4.3%)
+Timeouts                              : 77 (25.7%)
+----------------------------------------
+
+ITERATION 16/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 16): Success: 4 | Obs_Crash: 6 | Drone_Crash: 0 | Timeout: 10
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 320
+Goal Reached                          : 115 (35.9%)
+Obstacle Collisions                   : 105 (32.8%)
+Drone-Drone Collisions                : 13 (4.1%)
+Timeouts                              : 87 (27.2%)
+----------------------------------------
+
+ITERATION 17/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 17): Success: 5 | Obs_Crash: 11 | Drone_Crash: 0 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 340
+Goal Reached                          : 120 (35.3%)
+Obstacle Collisions                   : 116 (34.1%)
+Drone-Drone Collisions                : 13 (3.8%)
+Timeouts                              : 91 (26.8%)
+----------------------------------------
+
+ITERATION 18/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 18): Success: 11 | Obs_Crash: 4 | Drone_Crash: 2 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 360
+Goal Reached                          : 131 (36.4%)
+Obstacle Collisions                   : 120 (33.3%)
+Drone-Drone Collisions                : 15 (4.2%)
+Timeouts                              : 94 (26.1%)
+----------------------------------------
+
+ITERATION 19/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 19): Success: 8 | Obs_Crash: 8 | Drone_Crash: 0 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 380
+Goal Reached                          : 139 (36.6%)
+Obstacle Collisions                   : 128 (33.7%)
+Drone-Drone Collisions                : 15 (3.9%)
+Timeouts                              : 98 (25.8%)
+----------------------------------------
+
+ITERATION 20/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 20): Success: 7 | Obs_Crash: 7 | Drone_Crash: 2 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 400
+Goal Reached                          : 146 (36.5%)
+Obstacle Collisions                   : 135 (33.8%)
+Drone-Drone Collisions                : 17 (4.2%)
+Timeouts                              : 102 (25.5%)
+----------------------------------------
+
+ITERATION 21/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 21): Success: 7 | Obs_Crash: 7 | Drone_Crash: 0 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 420
+Goal Reached                          : 153 (36.4%)
+Obstacle Collisions                   : 142 (33.8%)
+Drone-Drone Collisions                : 17 (4.0%)
+Timeouts                              : 108 (25.7%)
+----------------------------------------
+
+ITERATION 22/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 22): Success: 9 | Obs_Crash: 4 | Drone_Crash: 2 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 440
+Goal Reached                          : 162 (36.8%)
+Obstacle Collisions                   : 146 (33.2%)
+Drone-Drone Collisions                : 19 (4.3%)
+Timeouts                              : 113 (25.7%)
+----------------------------------------
+
+ITERATION 23/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 23): Success: 11 | Obs_Crash: 1 | Drone_Crash: 2 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 460
+Goal Reached                          : 173 (37.6%)
+Obstacle Collisions                   : 147 (32.0%)
+Drone-Drone Collisions                : 21 (4.6%)
+Timeouts                              : 119 (25.9%)
+----------------------------------------
+
+ITERATION 24/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 24): Success: 8 | Obs_Crash: 9 | Drone_Crash: 0 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 480
+Goal Reached                          : 181 (37.7%)
+Obstacle Collisions                   : 156 (32.5%)
+Drone-Drone Collisions                : 21 (4.4%)
+Timeouts                              : 122 (25.4%)
+----------------------------------------
+
+ITERATION 25/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 25): Success: 9 | Obs_Crash: 5 | Drone_Crash: 2 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 500
+Goal Reached                          : 190 (38.0%)
+Obstacle Collisions                   : 161 (32.2%)
+Drone-Drone Collisions                : 23 (4.6%)
+Timeouts                              : 126 (25.2%)
+----------------------------------------
+
+ITERATION 26/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 26): Success: 6 | Obs_Crash: 10 | Drone_Crash: 0 | Timeout: 4
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 520
+Goal Reached                          : 196 (37.7%)
+Obstacle Collisions                   : 171 (32.9%)
+Drone-Drone Collisions                : 23 (4.4%)
+Timeouts                              : 130 (25.0%)
+----------------------------------------
+
+ITERATION 27/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 27): Success: 11 | Obs_Crash: 5 | Drone_Crash: 2 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 540
+Goal Reached                          : 207 (38.3%)
+Obstacle Collisions                   : 176 (32.6%)
+Drone-Drone Collisions                : 25 (4.6%)
+Timeouts                              : 132 (24.4%)
+----------------------------------------
+
+ITERATION 28/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 28): Success: 11 | Obs_Crash: 5 | Drone_Crash: 3 | Timeout: 1
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 560
+Goal Reached                          : 218 (38.9%)
+Obstacle Collisions                   : 181 (32.3%)
+Drone-Drone Collisions                : 28 (5.0%)
+Timeouts                              : 133 (23.8%)
+----------------------------------------
+
+ITERATION 29/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 29): Success: 9 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 580
+Goal Reached                          : 227 (39.1%)
+Obstacle Collisions                   : 186 (32.1%)
+Drone-Drone Collisions                : 28 (4.8%)
+Timeouts                              : 139 (24.0%)
+----------------------------------------
+
+ITERATION 30/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 30): Success: 12 | Obs_Crash: 2 | Drone_Crash: 0 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 600
+Goal Reached                          : 239 (39.8%)
+Obstacle Collisions                   : 188 (31.3%)
+Drone-Drone Collisions                : 28 (4.7%)
+Timeouts                              : 145 (24.2%)
+----------------------------------------
+
+ITERATION 31/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 31): Success: 9 | Obs_Crash: 4 | Drone_Crash: 0 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 620
+Goal Reached                          : 248 (40.0%)
+Obstacle Collisions                   : 192 (31.0%)
+Drone-Drone Collisions                : 28 (4.5%)
+Timeouts                              : 152 (24.5%)
+----------------------------------------
+
+ITERATION 32/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 32): Success: 11 | Obs_Crash: 7 | Drone_Crash: 0 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 640
+Goal Reached                          : 259 (40.5%)
+Obstacle Collisions                   : 199 (31.1%)
+Drone-Drone Collisions                : 28 (4.4%)
+Timeouts                              : 154 (24.1%)
+----------------------------------------
+
+ITERATION 33/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 33): Success: 12 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 660
+Goal Reached                          : 271 (41.1%)
+Obstacle Collisions                   : 204 (30.9%)
+Drone-Drone Collisions                : 28 (4.2%)
+Timeouts                              : 157 (23.8%)
+----------------------------------------
+
+ITERATION 34/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 34): Success: 10 | Obs_Crash: 3 | Drone_Crash: 2 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 680
+Goal Reached                          : 281 (41.3%)
+Obstacle Collisions                   : 207 (30.4%)
+Drone-Drone Collisions                : 30 (4.4%)
+Timeouts                              : 162 (23.8%)
+----------------------------------------
+
+ITERATION 35/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 35): Success: 3 | Obs_Crash: 12 | Drone_Crash: 0 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 700
+Goal Reached                          : 284 (40.6%)
+Obstacle Collisions                   : 219 (31.3%)
+Drone-Drone Collisions                : 30 (4.3%)
+Timeouts                              : 167 (23.9%)
+----------------------------------------
+
+ITERATION 36/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 36): Success: 9 | Obs_Crash: 3 | Drone_Crash: 0 | Timeout: 8
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 720
+Goal Reached                          : 293 (40.7%)
+Obstacle Collisions                   : 222 (30.8%)
+Drone-Drone Collisions                : 30 (4.2%)
+Timeouts                              : 175 (24.3%)
+----------------------------------------
+
+ITERATION 37/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 37): Success: 10 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 740
+Goal Reached                          : 303 (40.9%)
+Obstacle Collisions                   : 227 (30.7%)
+Drone-Drone Collisions                : 30 (4.1%)
+Timeouts                              : 180 (24.3%)
+----------------------------------------
+
+ITERATION 38/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 38): Success: 8 | Obs_Crash: 5 | Drone_Crash: 2 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 760
+Goal Reached                          : 311 (40.9%)
+Obstacle Collisions                   : 232 (30.5%)
+Drone-Drone Collisions                : 32 (4.2%)
+Timeouts                              : 185 (24.3%)
+----------------------------------------
+
+ITERATION 39/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 39): Success: 12 | Obs_Crash: 3 | Drone_Crash: 0 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 780
+Goal Reached                          : 323 (41.4%)
+Obstacle Collisions                   : 235 (30.1%)
+Drone-Drone Collisions                : 32 (4.1%)
+Timeouts                              : 190 (24.4%)
+----------------------------------------
+
+ITERATION 40/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 40): Success: 11 | Obs_Crash: 3 | Drone_Crash: 4 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 800
+Goal Reached                          : 334 (41.8%)
+Obstacle Collisions                   : 238 (29.8%)
+Drone-Drone Collisions                : 36 (4.5%)
+Timeouts                              : 192 (24.0%)
+----------------------------------------
+
+ITERATION 41/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 41): Success: 13 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 820
+Goal Reached                          : 347 (42.3%)
+Obstacle Collisions                   : 243 (29.6%)
+Drone-Drone Collisions                : 36 (4.4%)
+Timeouts                              : 194 (23.7%)
+----------------------------------------
+
+ITERATION 42/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 42): Success: 12 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 840
+Goal Reached                          : 359 (42.7%)
+Obstacle Collisions                   : 248 (29.5%)
+Drone-Drone Collisions                : 36 (4.3%)
+Timeouts                              : 197 (23.5%)
+----------------------------------------
+
+ITERATION 43/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 43): Success: 8 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 860
+Goal Reached                          : 367 (42.7%)
+Obstacle Collisions                   : 253 (29.4%)
+Drone-Drone Collisions                : 36 (4.2%)
+Timeouts                              : 204 (23.7%)
+----------------------------------------
+
+ITERATION 44/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 44): Success: 7 | Obs_Crash: 6 | Drone_Crash: 0 | Timeout: 7
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 880
+Goal Reached                          : 374 (42.5%)
+Obstacle Collisions                   : 259 (29.4%)
+Drone-Drone Collisions                : 36 (4.1%)
+Timeouts                              : 211 (24.0%)
+----------------------------------------
+
+ITERATION 45/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 45): Success: 10 | Obs_Crash: 8 | Drone_Crash: 0 | Timeout: 2
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 900
+Goal Reached                          : 384 (42.7%)
+Obstacle Collisions                   : 267 (29.7%)
+Drone-Drone Collisions                : 36 (4.0%)
+Timeouts                              : 213 (23.7%)
+----------------------------------------
+
+ITERATION 46/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 46): Success: 4 | Obs_Crash: 7 | Drone_Crash: 0 | Timeout: 9
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 920
+Goal Reached                          : 388 (42.2%)
+Obstacle Collisions                   : 274 (29.8%)
+Drone-Drone Collisions                : 36 (3.9%)
+Timeouts                              : 222 (24.1%)
+----------------------------------------
+
+ITERATION 47/50
+     [!] Iteration ended in 7.01 min.
+  Result (Iter 47): Success: 9 | Obs_Crash: 5 | Drone_Crash: 1 | Timeout: 5
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 940
+Goal Reached                          : 397 (42.2%)
+Obstacle Collisions                   : 279 (29.7%)
+Drone-Drone Collisions                : 37 (3.9%)
+Timeouts                              : 227 (24.1%)
+----------------------------------------
+
+ITERATION 48/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 48): Success: 10 | Obs_Crash: 5 | Drone_Crash: 2 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 960
+Goal Reached                          : 407 (42.4%)
+Obstacle Collisions                   : 284 (29.6%)
+Drone-Drone Collisions                : 39 (4.1%)
+Timeouts                              : 230 (24.0%)
+----------------------------------------
+
+ITERATION 49/50
+     [!] Iteration ended in 7.00 min.
+  Result (Iter 49): Success: 9 | Obs_Crash: 5 | Drone_Crash: 0 | Timeout: 6
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 980
+Goal Reached                          : 416 (42.4%)
+Obstacle Collisions                   : 289 (29.5%)
+Drone-Drone Collisions                : 39 (4.0%)
+Timeouts                              : 236 (24.1%)
+----------------------------------------
+
+ITERATION 50/50
+     [!] Iteration ended in 7.02 min.
+  Result (Iter 50): Success: 8 | Obs_Crash: 7 | Drone_Crash: 2 | Timeout: 3
+
+=== CUMULATIVE HISTORICAL SWARM TEST RESULTS ===
+Total Drones Deployed Across All Runs : 1000
+Goal Reached                          : 424 (42.4%)
+Obstacle Collisions                   : 296 (29.6%)
+Drone-Drone Collisions                : 41 (4.1%)
+Timeouts                              : 239 (23.9%)
+----------------------------------------
